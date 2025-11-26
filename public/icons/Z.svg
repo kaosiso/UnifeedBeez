@@ -1,0 +1,28 @@
+<svg width="105" height="104" viewBox="0 0 105 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_629_11637)">
+<path d="M86.8405 34.8123C88.6654 38.5024 90.2118 42.3303 91.3412 46.191C95.2802 58.8872 90.5644 72.8308 79.7275 80.5296C76.4865 82.9122 72.9341 85.0156 69.244 86.8405C65.5539 88.6654 61.7261 90.2118 57.8653 91.3412C45.1691 95.2802 31.2256 90.5644 23.5268 79.7275C21.1441 76.4865 19.0407 72.9341 17.2159 69.244C15.391 65.5539 13.8446 61.7261 12.7152 57.8653C8.7761 45.1691 13.492 31.2256 24.3289 23.5268C27.5698 21.1441 31.1222 19.0407 34.8123 17.2159C38.5024 15.391 42.3303 13.8446 46.191 12.7152C58.8872 8.7761 72.8308 13.492 80.5296 24.3289C82.9122 27.5698 85.0156 31.1222 86.8405 34.8123Z" fill="url(#paint0_linear_629_11637)"/>
+<path d="M52.2066 23.128C54.9621 21.7653 58.4145 21.9163 60.9511 23.7747C63.9335 25.9248 65.0507 29.7221 63.8982 33.1355L52.8072 66.2435L69.8051 57.8375C75.3443 55.0982 82.0522 57.2856 84.8056 62.8532L85.4766 64.21L49.0288 82.2346C46.2691 83.5992 42.8109 83.4455 40.2733 81.5792L40.2738 81.5779C37.2991 79.4254 36.1848 75.6323 37.338 72.2223L48.5201 39.1597L34.2498 46.2169C28.6965 48.9631 21.9615 46.6853 19.2152 41.132L18.5442 39.7752L52.2066 23.128Z" fill="white" stroke="white" stroke-width="3.02707"/>
+</g>
+<defs>
+<filter id="filter0_d_629_11637" x="10.3301" y="10.8344" width="83.3962" height="83.396" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.504512"/>
+<feGaussianBlur stdDeviation="0.504512"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_629_11637"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_629_11637" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_629_11637" x1="4939.81" y1="5876.51" x2="5465.82" y2="-2288.35" gradientUnits="userSpaceOnUse">
+<stop offset="5.79195e-07" stop-color="#0845BF"/>
+<stop offset="0.1911" stop-color="#0950DE"/>
+<stop offset="0.3823" stop-color="#0B59F6"/>
+<stop offset="0.5" stop-color="#0B5CFF"/>
+<stop offset="0.6732" stop-color="#0E5EFE"/>
+<stop offset="0.7774" stop-color="#1665FC"/>
+<stop offset="0.8633" stop-color="#246FF9"/>
+<stop offset="0.9388" stop-color="#387FF4"/>
+<stop offset="1" stop-color="#4F90EE"/>
+</linearGradient>
+</defs>
+</svg>
