@@ -3,6 +3,7 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import MessageIcons from "@/components/MessageIcons";
+import Image from "next/image";
 
 export default function WelcomeBeezaro() {
     const router = useRouter();
@@ -22,7 +23,7 @@ export default function WelcomeBeezaro() {
                     {/* Logo */}
                     <div className="flex items-center justify-center mb-8">
                         <div className="border-2 border-gray-300 rounded-2xl p-4 w-max h-max">
-                            <img
+                            <Image
                                 src="/icons/logo-bee.svg"
                                 alt="Bee Logo"
                                 className="w-20 h-20"
@@ -42,7 +43,7 @@ export default function WelcomeBeezaro() {
                             onClick={handleStart}
                             className="w-full bg-[#053d27] text-white pb-2 pt-3 rounded-lg text-base font-medium hover:opacity-90 transition"
                         >
-                            Yes, let's go
+                            Yes, let&apos;s go
                         </button>
 
                         <button

@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import { useState, useEffect, useMemo } from 'react';
 
 // --- Interfaces for Type Safety ---
@@ -49,12 +50,12 @@ const slides: Slide[] = [
   {
     id: 3,
     heading:
-      'Supercharge your business communication & connect with customers using AI, automation, & multi-channel messaging.',
+      "Supercharge your business communication & connect with customers using AI, automation, & multi-channel messaging.",
     description:
-      "UnifiedBeez is designed to help any business simplify and supercharge customer communication through AI, automation, and multi-channel messaging. Think of it as your business's AI-powered communication hub.",
+      "UnifiedBeez is designed to help any business simplify and supercharge customer communication through AI, automation, and multi-channel messaging. Think of it as your business&apos;s AI-powered communication hub.",
     testimonial: {
       quote:
-        "UnifiedBeez has transformed the way our team communicates. The sheer range of components and the seamless integration of the communication channels into our workflow have been game-changers. It's like having a toolkit filled with magic that accelerates our communications without compromising on quality.",
+        "UnifiedBeez has transformed the way our team communicates. The sheer range of components and the seamless integration of the communication channels into our workflow have been game-changers. It&apos;s like having a toolkit filled with magic that accelerates our communications without compromising on quality.",
       name: 'Ariana Grande',
       title: 'Visual Designer, Google',
     },
@@ -63,12 +64,12 @@ const slides: Slide[] = [
   {
     id: 4,
     heading:
-      'Supercharge your business communication & connect with customers using AI, automation, & multi-channel messaging.',
+      "Supercharge your business communication & connect with customers using AI, automation, & multi-channel messaging.",
     description:
-      "UnifiedBeez is designed to help any business simplify and supercharge customer communication through AI, automation, and multi-channel messaging. Think of it as your business's AI-powered communication hub.",
+      "UnifiedBeez is designed to help any business simplify and supercharge customer communication through AI, automation, and multi-channel messaging. Think of it as your business&apos;s AI-powered communication hub.",
     testimonial: {
       quote:
-        "UnifiedBeez has transformed the way our team communicates. The sheer range of components and the seamless integration of the communication channels into our workflow have been game-changers. It's like having a toolkit filled with magic that accelerates our communications without compromising on quality.",
+        "UnifiedBeez has transformed the way our team communicates. The sheer range of components and the seamless integration of the communication channels into our workflow have been game-changers. It&apos;s like having a toolkit filled with magic that accelerates our communications without compromising on quality.",
       name: 'Ariana Grande',
       title: 'Visual Designer, Google',
     },
@@ -110,7 +111,7 @@ const CarouselSlide: React.FC<CarouselSlideProps> = ({
         <p className="text-md mb-4">{testimonial.quote}</p>
         <div className="flex items-center mt-4 space-x-3">
           <div className="w-12 h-12 rounded-full flex items-center justify-center bg-[#ffe7cc] overflow-hidden shadow-md">
-            <img
+            <Image
               src="/images/avatar.png"
               alt={testimonial.name}
               className="w-full h-full object-cover"
@@ -153,12 +154,12 @@ const LeftSection: React.FC = () => {
     >
       {/* Main background image BEHIND gradient */}
       <div className="absolute inset-0 -z-10">
-        <img src="/images/left-main.png" alt="" className="w-full h-full object-cover" />
+        <Image src="/images/left-main.png" alt="" className="w-full h-full object-cover" />
       </div>
 
       {/* Center icon behind everything */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
-        <img src={slides[activeIndex].icon} alt="" className="opacity-40" />
+        <Image src={slides[activeIndex].icon} alt="" className="opacity-40" />
       </div>
 
       {/* Carousel Indicators */}

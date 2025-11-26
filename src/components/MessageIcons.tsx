@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 interface MessageIconsProps {
   className?: string;
@@ -23,7 +24,7 @@ const MessageIcons: React.FC<MessageIconsProps> = ({ className }) => {
     <div className={`overflow-hidden w-full ${className ?? ""}`}>
       <div className="flex animate-scroll whitespace-nowrap">
         {icons.concat(icons).map((icon, idx) => (
-          <img
+          <Image
             key={idx}
             src={icon.src}
             alt={icon.alt}

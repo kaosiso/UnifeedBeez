@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 // Single Social Button
@@ -23,15 +24,15 @@ const SocialButtons: React.FC = () => (
         </div>
         <div className="flex flex-col sm:flex-row gap-3 pt-3">
             <SocialButton
-                icon={<img src="/icons/google.svg" alt="Google" className="w-7 h-7" />}
+                icon={<Image src="/icons/google.svg" alt="Google" className="w-7 h-7" />}
                 label="Google"
             />
             <SocialButton
-                icon={<img src="/icons/apple-mac.svg" alt="Apple" className="w-7 h-7" />}
+                icon={<Image src="/icons/apple-mac.svg" alt="Apple" className="w-7 h-7" />}
                 label="Apple"
             />
             <SocialButton
-                icon={<img src="/icons/window.svg" alt="Microsoft" className="w-7 h-7" />}
+                icon={<Image src="/icons/window.svg" alt="Microsoft" className="w-7 h-7" />}
                 label="Microsoft"
             />
         </div>

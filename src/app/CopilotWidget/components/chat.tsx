@@ -5,6 +5,7 @@ import MessageInControl from './MessageInControl';
 import BusinessPlanCard from './BusinessPlanCard';
 import { chatMessages, ChatMessageData } from './data';
 import { users } from './users';
+import Image from 'next/image';
 interface ChatProps {
   currentSectionLabel: string;
 }
@@ -62,11 +63,11 @@ const Chat: React.FC<ChatProps> = ({ currentSectionLabel }) => {
             {/* Profile Avatar */}
             {message.sender === 'copilot' && (
               <div className="bg-white rounded-full p-2 mr-2 border-2 border-gray-300">
-                <img src="icons/logo-bee.svg" alt="Bee Logo" className="w-7 h-auto" />
+                <Image src="icons/logo-bee.svg" alt="Bee Logo" className="w-7 h-auto" />
               </div>
             )}
             {message.sender === 'user' && (
-              <img src="/images/avatar.png" alt="User" className="w-10 h-10 rounded-full ml-3 order-last" />
+              <Image src="/images/avatar.png" alt="User" className="w-10 h-10 rounded-full ml-3 order-last" />
             )}
 
 

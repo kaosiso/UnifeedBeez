@@ -1,6 +1,7 @@
 import MessageIcons from "@/components/MessageIcons";
 import React, { FC } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 
 const SetupAccount: FC = () => {
@@ -12,7 +13,7 @@ const SetupAccount: FC = () => {
 
           {/* Logo */}
           <div className="flex flex-col items-center mb-10">
-            <img
+            <Image
               src="icons/UNIFIEDBEEZ LOGO PRIMARY 11.png"
               alt="UnifiedBeez Logo"
               className="w-48 sm:w-56 h-auto mb-6"
@@ -31,7 +32,7 @@ const SetupAccount: FC = () => {
 
               <button className="w-full bg-[#053d27] text-[#f6f8f7] py-3 pt-4  rounded-lg text-base font-medium flex items-center justify-center gap-2 hover:opacity-90 transition">
                 Let BeeZora Set Everything Up For Me
-                <img src="icons/bee.svg" alt="Bee Logo" className="w-6 h-6" />
+                <Image src="icons/bee.svg" alt="Bee Logo" className="w-6 h-6" />
               </button>
 
             </Link>
@@ -39,7 +40,7 @@ const SetupAccount: FC = () => {
             <Link href="/WelcomeManual">
               <button className="w-full bg-[#fab403] text-[#053d27] py-3 pt-4 rounded-lg text-base font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition mt-6">
                 <span>Customize It Myself Instead</span>
-                <img src="icons/chevron-right.svg" alt="Bee Logo" className="w-6 h-6" />
+                <Image src="icons/chevron-right.svg" alt="Bee Logo" className="w-6 h-6" />
               </button>
             </Link>
 

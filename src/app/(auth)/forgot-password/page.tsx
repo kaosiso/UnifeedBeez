@@ -32,19 +32,14 @@ const ForgotPasswordPage = (): JSX.Element => {
         <div className="rounded-[40px] p-[24px] sm:p-[40px] w-full max-w-2xl min-h-[520px] bg-gradient-to-b from-[#e6f7ec] via-[#E6EEDB] to-[#E6EAD3] flex flex-col space-y-6">
           {/* Padlock Icon */}
           <div className="flex justify-center">
-            {/* Adjusted: Main container is w-16 h-16. */}
             <div className="rounded-xl w-16 h-16 bg-white shadow-lg flex items-center justify-center">
-              {/* Outer Circle (Big Circle): Adjusted to w-16 h-16 to completely fill the outer box (removing the space). Updated color to bg-[#eefdf1]. */}
               <div className="flex items-center justify-center rounded-full w-14 h-14 bg-[#eefdf1]">
-                {/* Inner Circle: Retained w-8 h-8 and color bg-[#dbf0df]. */}
                 <div className="flex items-center justify-center rounded-full w-10 h-10 bg-[#dbf0df]">
-                  {/* Icon: Updated to w-20 h-20 (based on user's input). Re-added ml-px for visual centering correction. */}
                   <Image
                     src="/icons/padlock.svg"
                     alt="Padlock Icon"
                     width={20}
                     height={20}
-                    // Re-applying ml-px (1 pixel margin-left) for visual correction of the icon's shape.
                     className="ml-px"
                   />
                 </div>
@@ -84,7 +79,7 @@ const ForgotPasswordPage = (): JSX.Element => {
   focus:outline-none focus:border-[#b9cebc] focus:border-4"
                   required
                 />
-                <img
+                <Image
                   src="/icons/help-circle.svg"
                   alt="Help"
                   // The combination of top-1/2 and -translate-y-1/2 now correctly centers the icon within the input field.

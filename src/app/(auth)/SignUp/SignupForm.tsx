@@ -4,6 +4,7 @@ import SocialButtons from "./Components/SocialButtons";
 import FormController from "./FormController";
 import CreateAccountView from "./views/CreateAccountView";
 import LoginView from "./views/LoginView";
+import Image from "next/image";
 
 const SignupForm: React.FC = () => {
   return (
@@ -24,7 +25,7 @@ const SignupForm: React.FC = () => {
           
           {/* Logo */}
           <div className="flex justify-center mb-6 pt-2">
-            <img
+            <Image
               src="/icons/UNIFIEDBEEZ LOGO PRIMARY 11.png"
               alt="UnifiedBeez Logo"
               className="w-48 sm:w-60 h-auto"

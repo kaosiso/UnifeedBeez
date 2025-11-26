@@ -1,5 +1,6 @@
 import React from 'react';
 import { MoreHorizontal, Check } from 'lucide-react'; // For the three-dot menu
+import Image from 'next/image';
 
 const BusinessPlanCard: React.FC = () => {
     return (
@@ -8,7 +9,7 @@ const BusinessPlanCard: React.FC = () => {
             <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-2">
                     <div className="border-2 rounded-lg h-10 w-10 flex items-center justify-center bg-red-500">
-                        <img src="icons/luggage-02.svg" alt="Bee Logo" className="h-5 w-auto" />
+                        <Image src="icons/luggage-02.svg" alt="Bee Logo" className="h-5 w-auto" />
                     </div>
 
                     <h4 className="font-medium capitalize text-lg text-[#323232]">Business Plan</h4>
