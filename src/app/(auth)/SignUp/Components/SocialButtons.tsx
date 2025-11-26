@@ -37,7 +37,7 @@ const SocialButtons: React.FC = () => (
             />
         </div>
         <p className="text-[10px] text-center text-gray-500 mt-4 px-4 sm:px-4 md:px-2 py-4 mx-auto max-w-xs">
-            By continuing, you agree to UnifiedBeez&apos;s Terms of Service and acknowledge that you've read our Privacy Policy.
+            By continuing, you agree to UnifiedBeez&apos;s Terms of Service and acknowledge that you&apos;ve read our Privacy Policy.
         </p>
     </div>
 );
