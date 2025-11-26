@@ -57,7 +57,7 @@ const ForgotPasswordPage = (): JSX.Element => {
             </h1>
 
             <p className="text-gray-600 text-xs sm:text-[16px]">
-              We'll email you a link to reset your password
+              We&apos;ll email you a link to reset your password
             </p>
           </div>
 

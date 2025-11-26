@@ -32,7 +32,7 @@ export default function WelcomeBeezaro() {
                     </div>
 
                     {/* Heading Text */}
-                    <h1 className="text-3xl font-semibold text-[#0b1012]">Hi there! I'm Beezaro</h1>
+                    <h1 className="text-3xl font-semibold text-[#0b1012]">Hi there! I&apos;m Beezaro</h1>
                     <p className="text-gray-600 mt-3 text-base max-w-xl mx-auto">
                         I’ll set everything up for you in just a few questions. Ready?
                     </p>

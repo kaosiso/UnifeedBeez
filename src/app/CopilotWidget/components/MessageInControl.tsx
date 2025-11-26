@@ -17,7 +17,7 @@ const MessageInControl: React.FC = () => {
         <Lightbulb size={32} className="text-gray-400 flex-shrink-0" /> 
         
         <span className="leading-5" >
-          You're in control. All settings can be  <br></br> changed anytime in your dashboard.
+          You&apos;re in control. All settings can be  <br></br> changed anytime in your dashboard.
         </span>
       </div>
     </div>
